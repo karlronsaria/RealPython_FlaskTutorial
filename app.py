@@ -1,5 +1,3 @@
-# app.py
-
 from flask import render_template
 import config
 from models import Person, Note
