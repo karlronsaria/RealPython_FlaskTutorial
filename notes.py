@@ -10,7 +10,7 @@ def read_one(note_id):
         return note_schema.dump(note)
     else:
         abort(
-            404, $"Note with ID {note_id} not found"
+            404, f"Note with ID {note_id} not found"
         )
 
 def update(note_id, note):

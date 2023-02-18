@@ -30,7 +30,7 @@ components:
       name: "note_id"
       description: "ID of the note"
       in: path
-      required: true
+      required: True
       schema:
         type: "integer"
 
